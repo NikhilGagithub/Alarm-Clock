@@ -4,7 +4,7 @@ selectMenu = document.querySelectorAll("select"),
 setAlarmBtn = document.querySelector("button");
 // create audio object for adding to song in page
 let alarmTime, isAlarmSet,
-ringtone = new Audio("./files/ringtone.mp3");
+ringtone = new Audio("ringtone.mp3");
 // Add options in hours  using loop 
 for (let i = 12; i > 0; i--) {
     i = i < 10 ? `0${i}` : i;
